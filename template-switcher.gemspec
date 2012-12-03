@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = TemplateSwitcher::VERSION
   gem.authors       = ["joker1007"]
   gem.email         = ["kakyoin.hierophant@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Switch template of rails by view_path mapping}
+  gem.summary       = %q{Switch template of rails by view_path mapping}
+  gem.homepage      = "https://github.com/joker1007/template-switcher"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
