@@ -15,3 +15,6 @@ begin
 rescue LoadError
   # do nothing
 end
+
+require "template_switcher/auto_render_switcher"
+require "template_switcher/railtie"
