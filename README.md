@@ -26,6 +26,7 @@ TemplateSwitcher.mapping = {
 }
 ```
 
+
 app/controllers/posts_controller.rb
 ```ruby
 class PostsController < ApplicationController
@@ -42,8 +43,11 @@ class PostsController < ApplicationController
 end
 ```
 
+
 If requested host name is "abc.example.domain", rendered "app/abc_views/posts/index.html.haml".
+
 If requested host name is "xyz.example.domain", rendered "app/xyz_views/posts/index.html.haml".
+
 Otherwize, rendered "app/views/posts/index.html.haml".
 
 ## Contributing
